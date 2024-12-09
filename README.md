@@ -1,5 +1,7 @@
 # EV3_MARCO_PROGRAMACION
 Descripción
+
+
 Esta aplicación implementa funcionalidades avanzadas como generación de códigos QR y consumo de datos dinámicos desde un servicio, utilizando Angular como framework principal.
 
 Requisitos Previos
