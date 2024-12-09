@@ -25,17 +25,27 @@ Este proyecto incluye pruebas unitarias para garantizar la funcionalidad de los 
 Instrucciones para ejecutar las pruebas
 Ejecuta las pruebas unitarias con:
 bash
+
 Copiar código
+
 ng test  
 Verifica los resultados de las pruebas en la consola o en el reporte generado.
+
 
 Casos de Prueba Cubiertos
 Componente api-html
 P5: Verificar la creación del componente.
+
 P6: Validar que ngOnInit carga los datos correctamente, actualizando cantidad_personajes y personajes.
+
 Componente genera-qr
+
 P7: Verificar la creación exitosa del componente.
+
 P8: Comprobar que el valor inicial de qrData es "Texto de base".
+
 P9: Validar la asignación correcta de qrData a createdCode al generar el código QR.
+
 P10: Confirmar que el código QR no se renderiza inicialmente en el DOM.
+
 P11: Validar que generateQRCode() actualiza correctamente createdCode con nuevos datos.
